@@ -12,6 +12,7 @@ body {
 }
 
 .heading {
+  text-align: center;
   -webkit-text-stroke-width: .001px;
   -webkit-text-stroke-color: rgba(255, 255, 255, .44);
   -webkit-text-fill-color: transparent;
@@ -104,6 +105,63 @@ body {
 
 .terms-link, .artist-link {
   color: var(--white);
+}
+
+@media screen and (max-width: 991px) {
+  body {
+    text-align: center;
+  }
+
+  .text-block {
+    font-size: 33px;
+  }
+
+  .da-link {
+    font-size: 71px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heading {
+    font-size: 5.7rem;
+    line-height: 4.5rem;
+  }
+
+  .text-block.terms {
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+
+  .da-link {
+    font-size: 58px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .heading {
+    font-size: 3.2rem;
+    line-height: 3.3rem;
+  }
+
+  .main-ting {
+    max-width: 100%;
+  }
+
+  .main-ting-links {
+    flex-direction: row;
+  }
+
+  .main-ting-link {
+    font-size: 3.3rem;
+  }
+
+  .text-block.terms {
+    font-size: 21px;
+  }
+
+  .da-link {
+    font-size: 42px;
+  }
 }
 
 
