@@ -1,0 +1,116 @@
+:root {
+  --black: #000;
+  --white: #fff;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.heading {
+  -webkit-text-stroke-width: .001px;
+  -webkit-text-stroke-color: rgba(255, 255, 255, .44);
+  -webkit-text-fill-color: transparent;
+  background-color: #000;
+  background-image: url('../images/5dc4231c6a906d0c373523c6_colour3dark.gif');
+  background-position: 0 0;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: Robot, sans-serif;
+  font-size: 7.5rem;
+  line-height: 5.2rem;
+  position: relative;
+}
+
+.main-ting {
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+}
+
+.main-ting-links {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  align-items: center;
+  display: flex;
+}
+
+.body {
+  font-family: Robot, sans-serif;
+}
+
+.main-ting-link {
+  float: left;
+  color: var(--white);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-fill-color: transparent;
+  background-image: url('../images/5dc4231c6a906d0c373523c6_colour3dark.gif');
+  background-position: 0 0;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 3.5rem;
+}
+
+.main-ting-link:hover {
+  -webkit-text-stroke-width: .3px;
+  -webkit-text-stroke-color: var(--white);
+  transform: scale(1.3);
+}
+
+.heading-ting-container {
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.link {
+  color: var(--white);
+}
+
+.text-block {
+  font-family: Inconsolata, monospace;
+  font-size: 38px;
+}
+
+.text-block.terms {
+  font-size: 27px;
+}
+
+.da-link {
+  color: var(--white);
+  font-family: Robot, sans-serif;
+  font-size: 88px;
+}
+
+.body-2 {
+  font-family: Inconsolata, monospace;
+}
+
+.terms-link, .artist-link {
+  color: var(--white);
+}
+
+
+@font-face {
+  font-family: 'Robot';
+  src: url('../fonts/Robot.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
