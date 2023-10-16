@@ -13,8 +13,8 @@ body {
 
 .heading {
   text-align: center;
-  -webkit-text-stroke-width: .001px;
-  -webkit-text-stroke-color: rgba(255, 255, 255, .44);
+  -webkit-text-stroke-width: .1px;
+  -webkit-text-stroke-color: var(--white);
   -webkit-text-fill-color: transparent;
   background-color: #000;
   background-image: url('../images/5dc4231c6a906d0c373523c6_colour3dark.gif');
@@ -95,6 +95,13 @@ body {
 
 .da-link {
   color: var(--white);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-fill-color: transparent;
+  background-image: url('../images/5dc4231c6a906d0c373523c6_colour3dark.gif');
+  background-position: 0 0;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
   font-family: Robot, sans-serif;
   font-size: 88px;
 }
